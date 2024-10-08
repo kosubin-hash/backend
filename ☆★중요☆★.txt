@@ -12,7 +12,7 @@ https://whaleon.us/o/CSqqEb/483e7266af284010a0c3568c26acdef2#detail
 
 구글에서 vscode를 다운로드 - 설치
 
-
+https://github.com/bhher/backend ← 쌤꺼 git
 
 
 <html>

@@ -1,0 +1,59 @@
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none; color: #555;}
+.cf::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+section{
+    width: 100%;
+}
+.title{
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
+.title h2{
+    font-size: 28px;
+    color: #333333;
+}
+section .inner{
+    width: 1330px;
+    height: 556px;
+    margin: 0 auto;
+}
+section .inner ul li{
+    width: 224px;
+    height: 375px;
+    display: inline-block;
+    margin-right: 30px;
+}
+section .inner ul li .frame{
+    width: 224px;
+    height: 250px;
+}
+section .inner ul li .frame img{
+    display: block;
+    width: 100%;
+}
+section .inner ul li .date{
+    font-size: 16px;
+    color: #333333;
+    padding-bottom: 10px;
+}
+section .inner ul li .text{
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+}
+
+
+section .inner ul li .p1{
+    color: #999999;
+    font-size: 14px;
+}
+section .inner ul li span{
+    color: #ff6733;
+    font-size: 18px;
+}
