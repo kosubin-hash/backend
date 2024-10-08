@@ -1,0 +1,79 @@
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;color:#333}
+.cf::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#wrap{
+    width: 100%;
+    background-color: #eee;
+}
+.franchise{
+    width: 100%;
+    padding: 30px 0;
+}
+.inner{
+    width: 1440px;
+    margin: 0 auto;
+}
+.inner .title{
+    width: 100%;
+    text-align: center;
+}
+.title h2{
+    color: #333;
+    font-size: 26px;
+}
+.title h2 strong{
+    color: #d58017;
+}
+.card_list{
+    padding: 20px 0;
+}
+.card_list ul{
+    width: 100%;
+}
+.card_list ul li{
+    float: left;
+    width: 230px;
+    height: 260px;
+    margin-right: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+.card_list ul li:nth-child(1){
+    background-color: #a2c5f3;
+}
+.card_list ul li:nth-child(3){
+    background-color: #a2c5f3;
+}
+.card_list ul li:nth-child(2){
+    background-color: #a2eef3;
+}
+.card_list ul li:nth-child(4){
+    margin-right: 0;
+    background-color: #a2eef3;
+}
+.card_list ul li img{
+    padding-bottom: 10px;
+}
+.card_list ul li .num span{
+    display: inline-block;
+    width: 35px;
+    height: 18px;
+    margin: 10px auto;
+    color: #29489e;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 18px;
+    border: 1px dotted #29489e;
+    font-size: 11px;
+}
+.card_list ul li .txt h3{
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+

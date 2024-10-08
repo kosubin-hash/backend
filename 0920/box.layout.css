@@ -1,0 +1,63 @@
+header{
+    width: 80%;
+    background-color: #069;
+    padding: 10px;
+    margin: auto;
+    /* header 중앙정렬 */
+    overflow: hidden;
+}
+header h1{
+    width: 40%;
+    float: left;
+    color: #fff;
+}
+header nav{
+    width: 60%;
+    float: right;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    float: left;
+    margin: 15px;
+}
+nav ul li a{
+    color: white;
+    /* 메뉴 글자 색 */
+    text-decoration: none;
+    /* 밑줄없애기 */
+}
+section{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #333;
+    padding: 5px;
+}
+section article{
+    width: 90%;
+    height: auto;
+    margin: 20px 10px;
+    padding: 20px;
+}
+#pet1{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#pet2{
+    border: 1px solid blue;
+    border-radius: 20px;
+}
+#pet3{
+    border: 2px double green;
+    /* double 이중선인데 3px 이상만 적용 */
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+}
+article h3{
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}

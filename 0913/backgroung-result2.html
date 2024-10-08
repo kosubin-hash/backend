@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container div{
+            width:100vw;
+            height:100vh;
+            /* vw vh 알아서 꽉 차게 */
+        }
+        .b1{
+            background-color: aqua;
+            background-image: url(img/back1.jpg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .b2{
+            background-color: #f00;
+            background-image: url(img/back2.jpg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .b3{
+            background-color: blueviolet;
+            background-image: url(img/back3.png);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+            background-attachment: fixed;
+             /* 고정된 이미지(스크롤 내려도 고정) */
+        }
+        .b4{
+            background-color: rgb(252, 0, 176);
+            background-image: url(img/back4.jpg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .b5{
+            background-color: brown;
+            background: url(img/back5.jpg) no-repeat fixed 50% 50% / cover;
+            /* no-repeat fixed 위치는 바뀌어도 되지만 50% 50% / cover 위치는 고정 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="b1">배경1</div>
+    <div class="b2">배경2</div>
+    <div class="b3">배경3</div>
+    <div class="b4">배경4</div>
+    <div class="b5">배경5</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .container{
+            width: 550px;
+            height: 600px;
+            border: 1px solid #333;
+            padding-left: 40px;
+            margin-left: 20px;
+        }
+        .hr{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>프런트엔드 개발자 지원서</h1>
+    <p><br>HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</p>
+    <hr>
+    <p><b>개인정보</b></p>
+    <ul>
+         <label for="r-name">이름</label>
+            <input type="text" name="r-name" id="r-name" class="reg" placeholder="공백없이 입력하세요">
+        </ul>
+        <ul>
+            <label for="r-phone">연락처</label>
+            <input type="text" name="r-phone" id="r-phone" class="reg">
+        </ul>
+        <p><b>지원 분야</b></p>
+        <ul>
+            <label><input type="radio" name="gift" class="reg"> 웹 퍼블리싱</label>
+        </ul>
+        <ul>
+            <label><input type="radio" name="gift" class="reg" > 웹 애플리케이션 개발</label>
+        </ul>
+        <ul>
+            <label><input type="radio" name="gift" class="reg" > 개발 환경 개선</label>
+        </ul>
+            <p><b>지원 동기</b></p>
+            <label for="memo"></label>
+            <textarea name="memo" id="memo" cols="50" rows="5" placeholder="본사 지원 동기를 간략히 써 주세요."></textarea>
+        <div class="centered">
+            <input type="submit" value="접수하기">
+            <input type="reset" value="다시쓰기">
+        </div>
+       </ul>
+    </div>
+</body>
+</html>

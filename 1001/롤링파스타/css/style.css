@@ -1,0 +1,182 @@
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none; color: #333;}
+
+
+.cf::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#wrap{
+    width: 100%;
+}
+/* overflow: hidden; /  height: 300px; 것처럼 높이를 만들어줌 */
+.franchise{
+    width: 100%;
+    padding: 50px 0;
+}
+.inner{
+    width: 1440px;
+    margin: 0 auto;
+}
+.inner .title{
+    /* 부모가 이너라 1440px 써두 댐 */
+    width: 100%;
+    text-align: center;
+}
+.title h2{
+    color: #1e1e1e;
+    font-size: 43px;
+}
+.card_list{
+    padding: 50px 0;
+}
+.card_list ul{
+    width: 100%;
+}
+.card_list ul li{
+    float: left;
+    width: 341px;
+    height: 430px;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    margin-right: 25px;
+    text-align: center;
+    padding-top: 40px;
+}
+/* .card_list ul li:last-child */
+.card_list ul li:nth-child(4){
+    margin-right: 0;
+}
+.card_list ul li img{
+    padding-bottom: 20px;
+}
+.card_list ul li .num span{
+    display: inline-block;
+    /* 디스플레이 블럭은 중앙정렬 X 인라인블럭은 숫자,글씨 중앙정렬 O */
+    width: 40px;
+    height: 40px;
+    margin: 20px auto;
+    background-color: #003e73;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 40px;
+}
+.card_list ul li .txt h3{
+    font-size: 20px;
+    padding: 10px 0;
+    color: #003e73;
+}
+.card_list ul li .txt p{
+    color: #1e1e1e;
+}
+
+
+.button_wrap{
+    text-align: center;
+    color: #003e73;
+}
+.button_wrap p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.button_wrap p span{
+    font-weight: bold;
+}
+.button_wrap a{
+    display: block;
+    width: 320px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+    background-color: #003b5a;
+    color: #fff;
+    border: 1px solid transparent;
+    /* 호버할때마다 박스 들썩거리는 거 없애기 / 1px 투명한 선 */
+}
+.button_wrap a:hover{
+    background-color: #fff;
+    color: #003b5a;
+    border: 1px solid #003b5a;
+}
+
+.footer{
+    background-color: #003e73;
+    color: #fff;
+}
+.footer .inner{
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 50px 0;
+}
+.footer .inner .logo{
+    float: left;
+    width: 220px;
+}
+.footer .inner .address{
+    float: left;
+    width: 906px;
+    box-sizing: border-box;
+    padding: 0 120px;
+}
+.address .privacy{
+    margin-top: -20px;
+}
+.privacy a{
+    color: red;
+    font-weight: bold;
+}
+.address p{
+    padding-top: 15px;
+}
+.address p span{
+    position: relative;
+    display: inline-block;
+    margin-right: 7px;
+    padding-bottom: 4px;
+}
+.address p span.bar::before{
+    content: '|';
+    display: inline-block;
+    margin-right: 7px;
+}
+.footer .family{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    right: 40px;
+    top: 60px;
+    border: 1px solid #fff;
+    background-color: #003e73;
+}
+.family label{
+    position: absolute;
+    width: 100%;
+    padding: 7px 10px 11px;
+    top: 0;
+    left: 0;
+    color: #fff;
+    box-sizing: border-box;
+}
+.family select{
+    width: 100%;
+    height: auto;
+    padding: 11px 10px;
+    line-height: normal;
+    border: 0;
+    opacity: 0;
+    appearance: none;
+    cursor: pointer;
+}
+.footer .family::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 5px;
+    top: 15px;
+    background: url(../images/ico.png) no-repeat -300px 0;
+}

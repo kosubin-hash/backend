@@ -1,0 +1,106 @@
+*{margin: 0; padding: 0;}
+.wrap{
+    width: 900px;
+    margin: 0 auto;
+}
+header{
+    position: relative;
+    /* 자식한테 absolute 줘야 이미지안에서 글씨 수정하겠다 라는 뜻 */
+    height: 300px;
+    background: url(../images/top.jpg);
+    /* 0% 30%; 이미지 옆에 같이 쓰면 사진 위치 조정 좌우/위아래 */
+    background-size: cover;
+}
+.logo{
+    position: absolute;
+    /* 부모한테 relative 필수 */
+    bottom: 50px;
+    right: 50px;
+    color: #fff;
+}
+nav{
+    width: 900px;
+    height: 70px;
+    background-color: #2a1d0a;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+nav ul li a{
+    display: block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    /* 줄간격 세로 중앙 정렬 */
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+/* a 태그 마우스 올렸을때 ↓ */
+nav ul li a:hover{
+    background-color: #fff;
+    color:  #000;
+    text-decoration: underline;
+    /* 밑줄 */
+}
+.content{
+    overflow: hidden;
+}
+section{
+    width: 650px;
+    height: 550px;
+    background-color: #ccc;
+    float: left;
+}
+section h3{
+    padding: 10px 0;
+    text-align: center;
+}
+section article{
+    width: 270px;
+    height: 200px;
+    border: 1px solid #333;
+    float: left;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+article h4{
+    background: url(../images/kong.png) no-repeat 0 0;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+article p{
+    line-height: 170%;
+    text-align: justify;
+}
+aside{
+    width: 250px;
+    height: 550px;
+    background-color: #726054;
+    float: left;
+    text-align: center;
+}
+aside img{
+    width: 220px;
+    padding-bottom: 10px;
+}
+aside h3{
+    padding: 10px 0;
+}
+footer{
+    /* clear:both; - float를 취소(잘 안씀) */
+    height:60px;
+    line-height: 60px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}

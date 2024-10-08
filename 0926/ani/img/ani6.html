@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #ballon{
+            position: relative;
+            top: 100px;
+            left: 100px;
+            width: 116px;
+            height: 160px;
+            background: url(./bg-main1.png) no-repeat 0 0;
+            animation: myball 3s infinite alternate;
+            }
+            @keyframes myball{
+            0%{top: 100px;}
+            100%{top: 700px}
+            }
+
+
+
+            #ballon2{
+                position: relative;
+            top: 800px;
+            left: 500px;
+            width: 116px;
+            height: 160px;
+            background: url(./bg-main1.png) no-repeat 0 0;
+            animation: myball 3s infinite alternate;
+            }
+            @keyframes myball2{
+            0%{top: 100px;}
+            100%{top: 700px}
+            }
+    </style>
+</head>
+<body>
+    <div id="ballon"></div>
+    <div id="ballon2"></div>
+</body>
+</html>
