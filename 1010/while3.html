@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .blue{color: #00f;}
+        .red{color: #f00;}
+    </style>
+    <script>
+        var i = 20;
+        while(i >= 10){
+            if(i%2==0){
+                document.write("<p class='blue'>"+i+"</p>")
+            }
+            else{
+                document.write("<p class='red'>"+i+"</p>")
+            }
+            i--; // i가 20부터 10까지 1씩 감소하면서 짝수 파랑 홀수 빨강
+        }
+        document.write("==== the end ====")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
