@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+ .highlight {
+            background-color: yellow;
+            font-weight: bold;
+}
+.box {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+</style>
+</head>
+<body>
+    <h1>클래스 추가/삭제 예시</h1>
+    
+    <div id="box" class="box">박스</div>
+    
+    <button onclick="addClass()">클래스 추가</button>
+    <button onclick="removeClass()">클래스 삭제</button>
+    <button onclick="toggleClass()">클래스 토글</button>
+
+    <script>
+        var box = document.getElementById('box');
+
+        function addClass(){
+            box.classList.add('highlight');
+        }  // highlight class 를 추가해라
+
+        function removeClass(){
+            box.classList.remove('highlight');
+        }  // highlight class 를 제거해라
+
+        function toggleClass() {
+            box.classList.toggle('highlight');
+        }  // 추가 / 제거 반복
+    </script>
+</body>
+</html>
