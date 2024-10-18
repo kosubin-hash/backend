@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <img src="images/cup-1.png" id="cup" alt="">
+    </div>
+    <script>
+        // var cup = document.getElementById('cup'); 밑에꺼랑 똑같음 밑에가 최신버전
+        var cup = document.querySelector('#cup');
+        cup.onclick = changePic;
+        function changePic(){
+            alert("이미지를 클릭했습니다.");
+        }
+    </script>
+</body>
+</html>

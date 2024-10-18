@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // 자바스크립트 함수 : 코드의 재사용하고 관리하는 효율적 방법
+        // 함수 정의(매개변수=인수를 받을 준비가 되어있는 변수)
+        function addNum(a,b){
+            return a+b;
+        }
+        // 함수호출
+        let result = addNum(5,3);
+        let result1 = addNum(7,8);
+        document.write(result+""+result1,"<br>");
+        // 매개변수가 없는 함수
+        function sayHello(){
+            document.write("hello world","<br>");
+        }
+        sayHello();
+        // 익명함수
+        let multiply = function(x,y){
+            return x * y;
+        }
+        document.write(multiply(4,5),"<br>");
+
+        let divide = function(x,y){
+            return x / y;
+        }
+        document.write(divide(4,8),"<br>");
+
+        let divide1 = (x,y) => x / y;
+        document.write(divide1(4,8),"<br>");
+
+        // 재귀함수호출
+        var num = 0;
+        function testFnc(){
+            num++;
+            document.write(num,"<br>");
+            if(num==10) return;
+            testFnc();
+        }
+        testFnc();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
